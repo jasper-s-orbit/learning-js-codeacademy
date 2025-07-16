@@ -39,3 +39,10 @@ console.log(Math.random()); // Prints a random number between 0 and 1
 console.log(Math.PI); // Prints the value of π (approximately 3.14159)
 console.log(Math.random() * 50); // Prints a random number between 0 and 50, may be a decimal
 console.log(Math.floor(Math.random() * 50)); // Prints a random integer between 0 and 49
+
+console.log(Math.random() * 100); // Prints a random number between 0 and 100, may be a decimal
+console.log(Math.floor(Math.random() * 100)); // Prints a random integer between 0 and 99
+console.log(Math.ceil(43.8)); // Prints 44 (rounds up)
+console.log(Math.floor(43.8)); // Prints 43 (rounds down)
+console.log(Number.isInteger(2017)); // Prints true (2017 is an integer)
+console.log(Number.isInteger(2017.5)); // Prints false (2017.5 is not an integer)
