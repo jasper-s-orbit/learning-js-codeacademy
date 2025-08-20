@@ -47,3 +47,6 @@ console.log(Math.floor(43.8)); // Prints 43 (rounds down)
 console.log(Number.isInteger(2017)); // Prints true (2017 is an integer)
 console.log(Number.isInteger(2017.5)); // Prints false (2017.5 is not an integer)
 
+
+
+
